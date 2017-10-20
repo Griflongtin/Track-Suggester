@@ -38,10 +38,24 @@ $(function(){
   user1.net = 0;
   user1.android = 0;
 
+  $("form button").click(function(event) {
+    event.preventDefault();
+    var answer1 = $("#question1").val();
+    var answer2 = $("#question2").val();
+    var answer3 = $("#question3").val();
+    var answer4 = $("#question4").val();
+    var answer4 = $("#question5").val();
+    var answer4 = $("#question6").val();
 
-  
 
-
+    if (answer1 === 1){
+      user1.railsCounter();
+    } else if (answer1 === 2) {
+      user1.netsCounter();
+    } else if (answer1 === 3) {
+      user1.androidCounter();
+      user1.cCounter();
+    }
 
 
 
@@ -106,4 +120,5 @@ $(function(){
 
 
 
+});
 });
