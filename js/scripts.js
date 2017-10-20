@@ -40,23 +40,64 @@ $(function(){
 
   $("form button").click(function(event) {
     event.preventDefault();
-    var answer1 = $("#question1").val();
-    var answer2 = $("#question2").val();
-    var answer3 = $("#question3").val();
-    var answer4 = $("#question4").val();
-    var answer4 = $("#question5").val();
-    var answer4 = $("#question6").val();
+    var answer1 = parseInt($("#question1").val());
+    var answer2 = parseInt($("#question2").val());
+    var answer3 = parseInt($("#question3").val());
+    var answer4 = parseInt($("#question4").val());
+    var answer5 = parseInt($("#question5").val());
+    var answer6 = parseInt($("#question6").val());
 
 
     if (answer1 === 1){
       user1.railsCounter();
     } else if (answer1 === 2) {
-      user1.netsCounter();
+      user1.netCounter();
     } else if (answer1 === 3) {
       user1.androidCounter();
       user1.cCounter();
     }
-
+    if (answer2 === 1){
+      user1.netCounter();
+    } else if (answer2 === 2) {
+      user1.railsCounter();
+    } else if (answer2 === 3) {
+      user1.cCounter();
+      user1.rubyCounter();
+    }
+    if (answer3 === 1){
+      user1.cCounter();
+    } else if (answer3 === 2) {
+      user1.rubyCounter();
+      user1.railsCounter();
+    } else if (answer3 === 3) {
+      user1.androidCounter();
+    }
+    if (answer4 === 1){
+      user1.cCounter();
+      user1.rubyCounter();
+    } else if (answer4 === 2) {
+      user1.netCounter();
+      user1.androidCounter();
+    } else if (answer4 === 3) {
+    }
+    if (answer5 === 1){
+      user1.railsCounter();
+    } else if (answer5 === 2) {
+      user1.rubyCounter();
+    } else if (answer5 === 3) {
+      user1.androidCounter();
+      user1.cCounter();
+    }
+    if (answer6 === 1){
+      user1.railsCounter();
+    } else if (answer6 === 2) {
+      user1.netCounter();
+    } else if (answer6 === 3) {
+      user1.androidCounter();
+      user1.rubyCounter();
+    }
+    console.log(user1)
+  });
 
 
 
@@ -120,5 +161,5 @@ $(function(){
 
 
 
-});
+
 });
