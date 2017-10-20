@@ -1,4 +1,51 @@
+function choosing(ruby, rails, c, net, android) {
+  this.ruby = 0;
+  this.rails = 0;
+  this.c = 0;
+  this.net = 0;
+  this.android = 0;
+}
+
+choosing.prototype.rubyCounter = function() {
+  this.ruby += 1;
+}
+
+choosing.prototype.railsCounter = function() {
+  this.rails += 1;
+}
+
+choosing.prototype.cCounter = function() {
+  this.c += 1;
+}
+
+choosing.prototype.netCounter = function() {
+  this.net += 1;
+}
+
+choosing.prototype.androidCounter = function() {
+  this.android += 1;
+}
+
+
+
+
 $(function(){
+
+  var user1 = new choosing();
+  user1.ruby = 0;
+  user1.rails = 0;
+  user1.c = 0;
+  user1.net = 0;
+  user1.android = 0;
+
+
+  
+
+
+
+
+
+
   $("button#home-btn").click(function(){
     $("#home-tab").show();
     $("#ruby-tab").hide();
