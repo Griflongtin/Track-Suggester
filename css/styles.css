@@ -12,6 +12,11 @@ body{
   background-color: #ffffff;
 }
 
-#home-tab, #ruby-tab {
+#home-tab {
+  margin: 15px;
+}
+
+#ruby-tab, #rails-tab, #c-tab, #net-tab, #android-tab {
+  display: none;
   margin: 15px;
 }
