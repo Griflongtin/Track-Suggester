@@ -6,6 +6,10 @@ body{
   color: rgba(19, 19, 20, 0.14);
   text-shadow: 2px 2px 0px rgba(36, 17, 17, 0.54);
 }
-#home-tab {
+#home-tab, #ruby-tab {
   margin: 15px;
+}
+#home-tab .text {
+  margin: 15px;
+  background-color: #ffffff;
 }
