@@ -1,0 +1,10 @@
+$(function(){
+  $("button#home-btn").click(function(){
+    $("#home-tab").show();
+    $("#ruby-tab").hide();
+    $("#rails-tab").hide();
+    $("#c-tab").hide();
+    $("#net-tab").hide();
+    $("android-tab").hide();
+  });
+});
