@@ -16,7 +16,7 @@ body{
   margin: 15px;
 }
 
-#ruby-tab, #rails-tab, #c-tab, #net-tab, #android-tab {
+#rubyrails-tab, #php-drupal-tab, #java-android-tab, #css-design-tab, #cnet-tab {
   display: none;
   margin: 15px;
 }
