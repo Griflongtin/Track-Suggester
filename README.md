@@ -6,13 +6,17 @@
 
 This website is for a track suggester to help you choose what track to take a epicodus.
 
-## Setup/Installation Requirements
-
-* Open your browser and at the top type in: https://griflongtin.github.io/Track-Suggester/index.html
-
 ## How to Look at WebPage
 
 * Open your browser and at the top type in: https://griflongtin.github.io/Track-Suggester/index.html
+
+## Setup/Installation Requirements
+
+* Open up terminal and type in: cd ~
+* Then type in: cd Desktop
+* Then type in: git clone https://github.com/Griflongtin/Track-Suggester.git
+* Then go to your Desktop and find the new file called Track-Suggester, Open it.
+* Then just open the index.html file.
 
 ## Support and contact details
 
@@ -23,6 +27,8 @@ This website is for a track suggester to help you choose what track to take a ep
 * html
 * Markdown
 * Atom
+* CSS
+* jquery
 
 ### License
 
